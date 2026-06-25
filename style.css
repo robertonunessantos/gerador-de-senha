@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f6fc;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #1d4ed8;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #555;
+}
+
+.caixa-senha {
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #153ca5;
+}
+
+.aviso {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
