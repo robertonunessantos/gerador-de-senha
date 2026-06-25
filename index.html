@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Gerador de Senha</h1>
+
+        <p class="descricao">
+            Clique no botão abaixo para gerar uma senha aleatória.
+        </p>
+
+        <div class="caixa-senha">
+            <input type="text" id="senha" readonly placeholder="Sua senha aparecerá aqui">
+        </div>
+
+        <button onclick="gerarSenha()">
+            Gerar senha
+        </button>
+
+        <p class="aviso">
+            Use senhas fortes para proteger suas contas.
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
