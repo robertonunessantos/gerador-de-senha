@@ -13,8 +13,35 @@
         <h1>Gerador de Senha</h1>
 
         <p class="descricao">
-            Clique no botão abaixo para gerar uma senha aleatória.
+            Escolha as opções abaixo e gere uma senha personalizada.
         </p>
+
+        <div class="campo">
+            <label for="quantidade">Quantidade de caracteres:</label>
+            <input type="number" id="quantidade" min="4" max="30" value="10">
+        </div>
+
+        <div class="opcoes">
+            <label>
+                <input type="checkbox" id="maiusculas" checked>
+                Letras maiúsculas
+            </label>
+
+            <label>
+                <input type="checkbox" id="minusculas" checked>
+                Letras minúsculas
+            </label>
+
+            <label>
+                <input type="checkbox" id="numeros" checked>
+                Números
+            </label>
+
+            <label>
+                <input type="checkbox" id="simbolos" checked>
+                Símbolos
+            </label>
+        </div>
 
         <div class="caixa-senha">
             <input type="text" id="senha" readonly placeholder="Sua senha aparecerá aqui">
@@ -24,9 +51,7 @@
             Gerar senha
         </button>
 
-        <p class="aviso">
-            Use senhas fortes para proteger suas contas.
-        </p>
+        <p id="mensagem" class="mensagem"></p>
     </main>
 
     <script src="script.js"></script>
