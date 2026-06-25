@@ -7,8 +7,8 @@ body {
 
 .container {
     width: 90%;
-    max-width: 400px;
-    margin: 80px auto;
+    max-width: 420px;
+    margin: 60px auto;
     padding: 25px;
     background: white;
     border-radius: 12px;
@@ -26,11 +26,42 @@ h1 {
     color: #555;
 }
 
+.campo {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.opcoes {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.opcoes label {
+    display: block;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
 .caixa-senha {
     margin: 20px 0;
 }
 
-input {
+.caixa-senha input {
     width: 100%;
     padding: 12px;
     font-size: 18px;
@@ -54,8 +85,8 @@ button:hover {
     background: #153ca5;
 }
 
-.aviso {
-    margin-top: 20px;
+.mensagem {
+    margin-top: 15px;
     font-size: 14px;
-    color: #666;
+    color: #dc2626;
 }
